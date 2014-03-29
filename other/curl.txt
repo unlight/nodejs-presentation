@@ -1,0 +1,12 @@
+:: Simple GET
+curl http://127.0.0.1:8080/
+
+:: только заголовки
+curl -I http://127.0.0.1:8080/
+
+:: POST запрос
+curl -d user=john http://127.0.0.1:8080/
+
+:: другой запрос
+curl -X DELETE http://127.0.0.1:8080/
+
