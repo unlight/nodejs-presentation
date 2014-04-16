@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"req",
+				"require"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"co",
+				"constructor"
+			],
+			[
 				"x",
 				"fs.exists"
 			],
 			[
 				"pro",
 				"process.stderr"
-			],
-			[
-				"cons",
-				"constructor"
 			],
 			[
 				"pr",
@@ -118,10 +130,6 @@
 			[
 				"в",
 				"видео"
-			],
-			[
-				"req",
-				"Request"
 			],
 			[
 				"медиа",
@@ -280,16 +288,8 @@
 				"date_updated"
 			],
 			[
-				"con",
-				"console"
-			],
-			[
 				"prop",
 				"prototype"
-			],
-			[
-				"co",
-				"contents"
 			],
 			[
 				"spl",
@@ -519,13 +519,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error-example.js",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error.js",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/My/7z.cmd",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/My/Dev/upnewstv/readme.md",
+			"settings":
+			{
+				"buffer_size": 3862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/My/Dev/Nodejs-Presentation/differences/ref-unref-timer.js",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -608,17 +652,51 @@
 	},
 	"file_history":
 	[
-		"/D/My/Dev/Nodejs-Presentation/other/curl.txt",
+		"/D/My/7z.cmd",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v3/math-app.js",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v3/sum.js",
+		"/D/My/Dev/Nodejs-Presentation/user-error/v1/user-error-example.js",
+		"/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error.js",
+		"/D/My/Dev/Nodejs-Presentation/user-error/v1/user-error.js",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v1/sum.js",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v2/math-app.js",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v1/math-app.js",
+		"/D/My/Dev/Nodejs-Presentation/differences/timers-tick-count.js",
+		"/D/My/Dev/Nodejs-Presentation/differences/ref-unref-timer.js",
 		"/D/My/Dev/Nodejs-Presentation/server-example/server-example-1.js",
+		"/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error-example.js",
+		"/D/My/Dev/Nodejs-Presentation/module-sum-demo/v2/sum.js",
+		"/D/My/Dev/ant.aws.af.cm/library/functions.js",
+		"/D/My/Dev/ant.aws.af.cm/library/parser.js",
+		"/D/My/Dev/ant.aws.af.cm/harvest.js",
+		"/D/My/Dev/ant.aws.af.cm/app.js",
+		"/D/My/Dev/ant.aws.af.cm/library/homecontroller.js",
+		"/D/My/Dev/ant.aws.af.cm/settings/index.js",
+		"/D/My/Dev/Nodejs-Presentation/user-error/user-error-example.js",
+		"/D/My/Dev/ant.aws.af.cm/test/cleanUpHtml.js",
+		"/C/Users/S/AppData/Roaming/npm/node_modules/node-dev/lib/wrap.js",
+		"/C/Users/S/AppData/Roaming/npm/node_modules/node-dev/lib/ipc.js",
+		"/C/Users/S/AppData/Roaming/npm/node_modules/node-dev/lib/cli.js",
+		"/C/Users/S/AppData/Roaming/npm/node_modules/node-dev/lib/index.js",
+		"/C/Users/S/.node-dev.json",
+		"/C/Users/S/AppData/Roaming/npm/node_modules/node-dev/node_modules/filewatcher/index.js",
+		"/D/My/Dev/ant.aws.af.cm/settings/config-redhat.js",
+		"/D/My/Dev/ant.aws.af.cm/library/testcontroller.js",
+		"/D/My/Dev/ant.aws.af.cm/library/ff.js",
+		"/D/My/Dev/ant.aws.af.cm/devlog.txt",
+		"/D/My/Dev/ant.aws.af.cm/gulpfile.js",
+		"/C/Users/S/AppData/Roaming/npm/renode.cmd",
+		"/D/My/Dev/hotnode/javascript/hotloader.js",
+		"/D/My/Dev/ant.aws.af.cm/settings/config.js",
+		"/C/nodejs/node-v0.10.26/lib/util.js",
+		"/D/My/Dev/Nodejs-Presentation/other/curl.txt",
 		"/D/My/Dev/Nodejs-Presentation/other/module-example.js",
 		"/D/My/Dev/Nodejs-Presentation/other/string-utils-example.js",
-		"/D/My/Dev/Nodejs-Presentation/user-error/user-error-example.js",
 		"/D/My/Dev/Nodejs-Presentation/other/hints.js",
 		"/D/My/Dev/Nodejs-Presentation/other/string-utils.js",
 		"/D/My/Dev/Nodejs-Presentation/user-error/user-error.js",
 		"/D/My/Dev/Nodejs-Presentation/module-cycles-demo/module-cycles-ref/a.js",
 		"/D/My/Dev/Nodejs-Presentation/module-cycles-demo/module-cycles-ref/b.js",
-		"/D/My/Dev/Nodejs-Presentation/differences/timers-tick-count.js",
 		"/D/My/Dev/Nodejs-Presentation/user-error/legacy-version/user-error.js",
 		"/D/My/Dev/Nodejs-Presentation/module-cycles-demo/module-cycles-ref/main.js",
 		"/D/My/Dev/Nodejs-Presentation/user-error/legacy-version/user-error-example.js",
@@ -701,41 +779,7 @@
 		"/D/My/Dev/upnewstv/vendor/iamthes/mvc-service/MenuModule.php",
 		"/D/My/Dev/upnewstv/library/ModMenuModule.php",
 		"/D/My/Dev/upnewstv/vendor/iamthes/mvc-service/Module.php",
-		"/D/My/Dev/upnewstv/vendor/iamthes/mvc-service/Model.php",
-		"/D/My/Dev/upnewstv/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Flash/FlashBag.php",
-		"/D/My/Dev/upnewstv/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Flash/FlashBagInterface.php",
-		"/D/My/Dev/upnewstv/views/dashboard/index.php",
-		"/D/My/Dev/upnewstv/library/DashboardController.php",
-		"/D/My/Dev/upnewstv/design/GridBox/form.css",
-		"/D/My/Dev/upnewstv/test/local-auth-dropbox.cmd",
-		"/D/My/Dev/upnewstv/library/ProviderDropboxModel.php",
-		"/D/My/Dev/upnewstv/vendor/iamthes/mvc-service/SessionHandler.php",
-		"/D/My/Dev/upnewstv/vendor/iamthes/useful-functions/views/settings.php",
-		"/D/My/Dev/upnewstv/settings/structure.php",
-		"/D/wnmp/httpd/conf/httpd.conf",
-		"/D/My/Dev/upnewstv/index.php",
-		"/D/wnmp/httpd/conf/vhosts.conf",
-		"/D/My/Dev/Sandbox/PresentNode/user-error.js",
-		"/D/My/Dev/Sandbox/PresentNode/user-error-example.js",
-		"/D/My/Dev/upnewstv/vendor/silex/silex/src/Silex/ControllerResolver.php",
-		"/D/My/Dev/upnewstv/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/Fixtures/Bundle1Bundle/foo.txt",
-		"/D/My/Dev/Mvc/MenuModule.php",
-		"/D/My/Dev/9magnet.local/library/modules/OptionsModMenu.php",
-		"/D/My/Dev/upnewstv/design/style.css",
-		"/D/My/Dev/upnewstv/views/upload/index.php",
-		"/D/My/Dev/upnewstv/library/ProfileSideMenuModule.php",
-		"/D/My/Dev/upnewstv/settings/bootstrap.php",
-		"/D/My/Dev/upnewstv/library/Utils.php",
-		"/D/My/Dev/upnewstv/vendor/iamthes/useful-functions/library/functions.misc.php",
-		"/D/My/Dev/upnewstv/.gitignore",
-		"/D/My/Dev/upnewstv/vendor/.gitignore",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo-1/main.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo-1/child2.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo-1/child1.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo/b2.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo/main.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo/b1.js",
-		"/D/My/Dev/Sandbox/PresentNode/module-parent-demo/b.js"
+		"/D/My/Dev/upnewstv/vendor/iamthes/mvc-service/Model.php"
 	],
 	"find":
 	{
@@ -756,6 +800,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" u ",
+			"•",
+			"createDocument",
+			"console.l",
+			"add",
+			"change",
+			"opts",
+			"throw 1",
+			"opts",
+			"env",
 			"\"",
 			"assert.equal",
 			"str_len",
@@ -873,17 +927,7 @@
 			"form-control",
 			"form-group",
 			"<fieldset>",
-			"fieldset>",
-			"mediaplayer",
-			"playlist",
-			"expressRequestHandler",
-			"video",
-			"checkPassword",
-			"expressRequestHandler",
-			"\n",
-			"register",
-			"ServerName ",
-			".local\""
+			"fieldset>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -912,8 +956,149 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error-example.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/My/Dev/Nodejs-Presentation/user-error/v2/user-error.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/My/7z.cmd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/My/Dev/upnewstv/readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/My/Dev/Nodejs-Presentation/differences/ref-unref-timer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1397,7 +1582,7 @@
 		[
 			[
 				"",
-				"D:\\My\\Dev\\ant.aws.af.cm\\~notes\\ant.aws.af.cm.sublime-project"
+				"D:\\My\\Dev\\upnewstv\\~notes\\upnews.sublime-project"
 			],
 			[
 				"gar",
