@@ -7,7 +7,7 @@ fs.open(__filename, "r", function(err, file) {
 });
 
 setImmediate(function() {
-	console.log("Immediate should be after I/O events");
+	console.log("Immediate after I/O events");
 });
 
 process.nextTick(function() {
@@ -17,6 +17,9 @@ process.nextTick(function() {
 // setTimeout(function() {
 // 	console.log("Timeout");
 // }, 0);
+
+
+
 
 
 
