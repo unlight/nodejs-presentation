@@ -1,22 +1,23 @@
 var fs = require("fs");
 
-console.log("Begin");
+setImmediate(function() {
+	console.log("Immediate after I/O events");
+	// setImmediate(function() {
+	// 	console.log("Immediate after I/O events tick #2");
+	// });
+});
 
 fs.open(__filename, "r", function(err, file) {
 	console.log("I/O");
-});
-
-setImmediate(function() {
-	console.log("Immediate after I/O events");
 });
 
 process.nextTick(function() {
 	console.log("nextTick");
 });
 
-// setTimeout(function() {
-// 	console.log("Timeout");
-// }, 0);
+setTimeout(function() {
+	console.log("Timeout");
+}, 0);
 
 
 
