@@ -10,3 +10,4 @@ curl -d user=john http://127.0.0.1:8080/
 :: другой запрос
 curl -X DELETE http://127.0.0.1:8080/
 
+ curl --limit-rate 1K http://127.0.0.1:8080/
