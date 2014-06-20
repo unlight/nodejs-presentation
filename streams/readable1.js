@@ -1,12 +1,14 @@
-var Stream = require('stream');
+var Stream = require("stream");
 var stream = new Stream;
 stream.readable = true;
 
-var c = 0;
+var c = "a".charCodeAt(0);
 var iv = setInterval(function () {
-    if (++c >= 75) {
+	stream.emit("data", String.fromCharCode(c));
+    if (++c > "k".charCodeAt(0)) {
         clearInterval(iv);
-        stream.emit('end');
+        stream.emit("end");
     }
-    else stream.emit('data', String.fromCharCode(c));
 }, 100);
+
+stream.pipe(process.stdout);
