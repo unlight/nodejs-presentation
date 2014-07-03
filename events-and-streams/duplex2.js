@@ -14,12 +14,12 @@ GreenStream.prototype._read = function(size) {
 	setTimeout(function() {
 		console.log("self.items length in setTimeout", self.items.length);
 		if (self.items.length === 0) {
-			//console.log("self.items is empty");
+			console.log("self.items is empty");
 			//var pr = self.push("_");
 			//console.log("push result 0", pr);
 		} else {
 			var v = self.items.shift();
-			console.log("pushing v", v);
+			console.log("pushing v", v.length);
 			var pr = self.push(v);
 			console.log("push result 2", pr);
 		}
@@ -30,7 +30,7 @@ GreenStream.prototype._read = function(size) {
 
 GreenStream.prototype._write = function(chunk, encoding, callback) {
 	var item = chunk.toString();
-	console.log("GreenStream.prototype._write", item);
+	console.log("GreenStream.prototype._write", item.length);
 	var self = this;
 	setTimeout(function() {
 		self.items.push(item);
