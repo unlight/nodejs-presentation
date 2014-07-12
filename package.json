@@ -1,0 +1,22 @@
+{
+  "name": "Nodejs-Presentation",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unlight/Nodejs-Presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlight/Nodejs-Presentation/issues"
+  },
+  "homepage": "https://github.com/unlight/Nodejs-Presentation"
+}
