@@ -1,9 +1,9 @@
 const log = require("util").log;
 
-var startTime = +new Date();
+var startTime = Date.now();
 
 var t1 = setInterval(function() {
-	var elapsed = +new Date() - startTime;
+	var elapsed = Date.now() - startTime;
 	log(elapsed + "ms.");
 	if (elapsed > 3000) {
 		log("t1 clearInterval.");
@@ -17,4 +17,4 @@ var t2 = setInterval(function() {
 }, 2000);
 
 
-// t2.unref();
+t2.unref();

@@ -10,9 +10,9 @@ stream._read = function(size) {
 		this.push(null);
 		return;
 	}
-	setTimeout((function() {
-		this.push(letter);
-	}).bind(this), ~~(Math.random() * 100));
+	setTimeout(function() {
+		stream.push(letter);
+	}, ~~(Math.random() * 100));
 }
 
 stream.pipe(process.stdout);
