@@ -54,10 +54,10 @@ setTimeout(function() {
 
 // WIN
 // nextTick
+// Timeout
 // Immediate after I/O events
 // I/O
 // ON LINUX
-// Begin
 // nextTick
 // Timeout
 // I/O
