@@ -1,7 +1,6 @@
 {
-  "name": "Nodejs-Presentation",
-  "version": "0.0.0",
-  "description": "",
+  "name": "nodejs-presentation",
+  "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
     "JSONStream": "^0.8.4",
